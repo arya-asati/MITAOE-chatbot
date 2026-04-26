@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "namaste"
+      ],
+      "responses": [
+        "Hello! Welcome to MIT Academy of Engineering (MITAOE) Chatbot! 👋\nHow can I help you today?",
+        "Namaste! I'm MITAOE Assistant. What would you like to know? 😊",
+        "Hi there! Ready to help you with MITAOE information!"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission",
+        "admissions",
+        "apply",
+        "application",
+        "eligibility",
+        "entrance exam"
+      ],
+      "responses": [
+        "📚 **MITAOE Admissions:**\n• Apply through MHT-CET or JEE Main\n• B.Tech programs available\n• Visit: mitaoe.ac.in/admissions\n• Contact: 020-30253700"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "course",
+        "courses",
+        "program",
+        "programs",
+        "branch",
+        "branches",
+        "btech"
+      ],
+      "responses": [
+        "🎓 **MITAOE Courses:**\n• Computer Engineering\n• Electronics & Telecom\n• Mechanical Engineering\n• Civil Engineering\n• Chemical Engineering\n• IT Engineering\nAll 4-year B.Tech programs!"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee",
+        "fees",
+        "tuition",
+        "cost"
+      ],
+      "responses": [
+        "💰 **Fee Structure:**\n• Open Category: ₹1,36,000/year\n• Reserved Category: ₹15,000/year\n• Hostel Fees: ₹75,000/year\n*Fees subject to change. Check official website for latest info.*"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel",
+        "hostels",
+        "dormitory",
+        "pg",
+        "accommodation"
+      ],
+      "responses": [
+        "🏠 **Hostel Facilities:**\n• Separate boys & girls hostels\n• 24/7 security & WiFi\n• Mess facility available\n• Capacity: 1000+ students\n• Apply during admission process"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement",
+        "placements",
+        "job",
+        "jobs",
+        "recruitment",
+        "company"
+      ],
+      "responses": [
+        "💼 **Placements @ MITAOE:**\n• 85%+ placement rate\n• Top recruiters: TCS, Infosys, Capgemini, L&T\n• Highest package: ₹12 LPA\n• Average package: ₹4.5 LPA\n• Dedicated Training & Placement Cell"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact",
+        "phone",
+        "number",
+        "email",
+        "address",
+        "office"
+      ],
+      "responses": [
+        "📞 **Contact MITAOE:**\n• Phone: 020-30253700\n• Email: admissions@mitaoe.ac.in\n• Website: mitaoe.ac.in\n• Office Hours: 10 AM - 5 PM"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "location",
+        "address",
+        "where",
+        "map",
+        "campus"
+      ],
+      "responses": [
+        "📍 **MITAOE Location:**\nAlandi, Pune, Maharashtra\nNear Kanhur Mesai\n20 km from Pune Railway Station\nGoogle Maps: Search 'MITAOE Alandi'"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam",
+        "exams",
+        "test",
+        "schedule"
+      ],
+      "responses": [
+        "📅 **Exam Information:**\n• Semester exams twice a year\n• Check ERP portal for schedule\n• Admit cards 1 week before exams\n• Results usually within 30 days"
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "result",
+        "results",
+        "marks",
+        "grade"
+      ],
+      "responses": [
+        "📊 **Results:**\n• Check on ERP portal: erp.mitaoe.ac.in\n• Results declared within 30 days\n• Semester grade cards issued\n• Revaluation facility available"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "what",
+        "how",
+        "why",
+        "when"
+      ],
+      "responses": [
+        "I understand you're asking something specific! 😊\nPlease ask about:\n• Admissions\n• Courses & Fees\n• Hostel & Placements\n• Contact details\n• Campus location"
+      ]
+    }
+  ]
+}
